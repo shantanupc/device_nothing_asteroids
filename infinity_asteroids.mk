@@ -7,13 +7,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 $(call inherit-product, device/nothing/asteroids/device.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+
+# Infinity-X Specific Flags
+INFINITY_BUILD_TYPE := OFFICIAL
+INFINITY_MAINTAINER := ShantanuPC
+WITH_GAPPS := true
+TARGET_BUILD_GOOGLE_TELEPHONY := false
+USE_MOTO_CALCULATOR := true
+TARGET_HAS_UDFPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_BRAND := Nothing
 PRODUCT_DEVICE := asteroids
 PRODUCT_MANUFACTURER := Nothing
 PRODUCT_MODEL := A059
-PRODUCT_NAME := lineage_asteroids
+PRODUCT_NAME := infinity_asteroids
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 

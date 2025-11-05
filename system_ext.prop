@@ -51,3 +51,9 @@ ro.vendor.qti.va_aosp.support=1
 ril.subscription.types=NV,RUIM
 ro.telephony.default_network=26,26
 telephony.lteOnCdmaDevice=1
+
+# InfinityX phoneinfo props
+ro.infinity.soc=Snapdragon 7s Gen 3
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080x2392, 120Hz
+ro.infinity.camera=50MP+50MP+8MP
