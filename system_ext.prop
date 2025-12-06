@@ -50,6 +50,7 @@ ro.telephony.default_network=26,26
 telephony.lteOnCdmaDevice=1
 
 # InfinityX phoneinfo props
+ro.product.marketname=Nothing Phone 3a/Pro
 ro.infinity.soc=Snapdragon 7s Gen 3
 ro.infinity.battery=5000 mAh
 ro.infinity.display=1080x2392, 120Hz
